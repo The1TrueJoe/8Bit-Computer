@@ -7,7 +7,7 @@ void setup() {
   Serial.begin(9600);
   
   for (int i = 0; i < Lines.size(); i++) {
-    pinMode(i, OUTPUT);
+    pinMode(Lines[i], OUTPUT);
     Serial.println("Line " + i + " Set";
     
   }
