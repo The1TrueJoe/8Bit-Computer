@@ -1,0 +1,1 @@
+./vasm6502_oldstyle -Fbin -dotdir hello-world.s
